@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-bitter {
+    font-family: 'Bitter', serif;
+  }
+
+  .font-alegreya {
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+
+  .placeholder {
+    @apply relative overflow-hidden rounded-md bg-gray-100;
+
+    &:before {
+      @apply absolute z-[1] h-full w-full bg-center bg-no-repeat;
+      content: '';
+      background-image: linear-gradient(90deg, #f3f4f6, white 40% 60%, #f3f4f6);
+      background-size: 256px 100%;
+      animation: shimmer 1.5s ease-in-out infinite;
+    }
+
+    @keyframes shimmer {
+      0% {
+        transform: translateX(calc(-50% - 128px));
+      }
+      100% {
+        transform: translateX(calc(50% + 128px));
+      }
+    }
+  }
+}
