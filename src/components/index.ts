@@ -1,0 +1,5 @@
+export { default as ArtworkGallery } from './ArtworkGallery.vue'
+export { default as ArtworkPlaceholder } from './ArtworkPlaceholder.vue'
+export { default as BaseArtwork } from './BaseArtwork.vue'
+export { default as MainFooter } from './MainFooter.vue'
+export { default as MainHeader } from './MainHeader.vue'
