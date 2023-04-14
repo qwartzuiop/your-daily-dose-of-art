@@ -7,7 +7,7 @@ Get inspired and enjoy art every day. A new day is a new style of art.
 <details>
     <summary>Screenshot</summary>
 
-![Image Preview](https://pavelgolyshev.dev/images/your-daily-dose-of-art.png)
+![Image Preview](https://pavelgolyshev.dev/images/ydda.png)
 
 </details>
 
